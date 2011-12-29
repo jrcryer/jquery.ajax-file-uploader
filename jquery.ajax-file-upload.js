@@ -5,7 +5,7 @@
  * @version 0.1
  */
 (function ($) {
-	$.AjaxFileUploader = function (el, options) {
+    $.AjaxFileUploader = function (el, options) {
 
 		var form     = $(el),
 			input    = $(options.input, form),
