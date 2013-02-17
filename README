@@ -1,6 +1,6 @@
 ### Example
 
-
+```
    (function($) {
       $('form').ajaxFileUploader({
           input: '.files',
@@ -10,17 +10,11 @@
           }
       });
    })(jQuery);
-        
+```     
 ### Options
 
-input
-:   *Defaults to \#files.* Selector of file input form field
-onSuccess
-:   Callback when files are successfully uploaded.
-onFailure
-:   Callback when files fail to upload.
-hideButton
-:   *Defaults to false.* Hide submit button and automatically upload
-    files as user selects them.
-buttons
-:   The buttons that will be hidden when hideButtons is set to true
+* **input** - Defaults to \#files.* Selector of file input form field
+* **onSuccess** - Callback when files are successfully uploaded.
+* **onFailure** - Callback when files fail to upload.
+* **hideButton** - Defaults to false. Hide submit button and automatically upload files as user selects them.
+* **buttons** - The buttons that will be hidden when hideButtons is set to true
