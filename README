@@ -1,0 +1,14 @@
+### Example
+
+~~~~ {.prettyprint .linenums .language-js}
+            (function($) {
+                $('form').ajaxFileUploader({
+                    input: '.files',
+                    hideButton: true,
+                    onSuccess: function(text) {
+                        $('.info').text(text);
+                    }
+                });
+            })(jQuery);
+        
+~~~~
